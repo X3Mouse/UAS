@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TheOneProduction</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">We Will help you to find your way!</string>
+    <string name="txtSlogan">Coba deh beli di sini. Makan sepuasnya kalo punya UANG</string>
+    <string name="username">username</string>
+    <string name="passwrod">passwrod</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="signup">signup</string>
+    <string name="loginhere">Already Registered ? <u>Login</u></string>
+    <string name="singuphere">Create a new account ? Signup</string>
+    <string name="login">Login</string>
+    <string name="phone">Phone</string>
+    <string name="search_text">search_text</string>
+    <string name="restaurants">restaurants</string>
+</resources>

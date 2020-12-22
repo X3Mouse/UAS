@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard3">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/VolleyImageView"
+        android:layout_width="254dp"
+        android:layout_height="310dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/Category"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/VolleyImageView"
+        android:layout_toRightOf="@+id/VolleyImageView"
+        android:text="JSon Image Name"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VolleyImageView"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/imagePrice"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Category"
+        android:layout_toEndOf="@+id/VolleyImageView"
+        android:layout_toRightOf="@+id/VolleyImageView"
+        android:text="JSon Image Price"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Category"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/imageDesc"
+        android:layout_width="229dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/imagePrice"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/VolleyImageView"
+        android:layout_toRightOf="@+id/VolleyImageView"
+        android:maxLines="3"
+        android:text="JSon Image Desc"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePrice"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="174dp"
+        android:layout_height="63dp"
+        android:text="Pesan Sekarang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDesc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
